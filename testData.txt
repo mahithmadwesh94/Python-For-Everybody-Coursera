@@ -2,7 +2,7 @@ This file contains the actual data for your assignment - good luck!
 
 
 Why should you learn to write programs?
-
+ 
 Writing programs (or programming) is a very creative 
 and rewarding activity.  You can write programs for 
 many reasons, ranging from making your living to solving

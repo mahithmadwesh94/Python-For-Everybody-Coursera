@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-
+  
 url = input('Enter location: ')
 uh = urllib.request.urlopen(url)
 data = json.loads(uh.read())

@@ -12,7 +12,7 @@ ctx.verify_mode = ssl.CERT_NONE
 while True:
     address = input('Enter location: ')
     if len(address) < 1: break
-
+ 
     address = address.strip()
     parms = dict()
     parms['q'] = address
@@ -27,7 +27,7 @@ while True:
     try:
         js = json.loads(data)
         plus_Code = js['features'][0]['properties']['plus_code']
-        print('plus_Code',plus_Code)
+        print('plus_Code',plis)
     except:
         js = None
 
